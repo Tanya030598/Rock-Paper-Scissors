@@ -1,0 +1,16 @@
+import random
+choices=['stone','paper','scissors']
+while True:
+    print("Enter quit for exit")
+    user=input("Enter your choice (stone/paper/scissors) : ").lower()
+    if(user=='quit'):
+        break
+    computer=random.choice(choices)
+    print(computer)
+    if(user=='stone' and computer=='scissors') or (user=='scissors' and computer=='paper') or (user=='paper' and computer=='stone'):
+        print('You Win!\nComputer Lose!')
+    elif(user==computer):
+        print("Tie!")
+    else:
+        print("Computer Win!\nYou Lose!")
+print('Done')
