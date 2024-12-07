@@ -8,4 +8,4 @@ TECHNICAL SKILLS: This game requires basic programming skills, such as using con
 
 RESULT: The result is a fun, interactive game where players face off against the computer. The game determines a winner based on both the player's and the computer's choices, and keeps running until the player decides to stop playing.
 
-Link: https://github.com/Tanya030598/Rock-Paper-Scissors
+Link: https://github.com/Tanya030598/Rock-Paper-Scissors/blob/main/Rock-Paper-Scissors.python
